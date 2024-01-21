@@ -10,7 +10,7 @@
       crossorigin="anonymous"
     />
     <link href="style.css" rel="stylesheet" />
-    <title>Calculator</title>
+    <title>Calculator by Nurul Maulidha E</title>
   </head>
   <body>
     <div class="container-md mt-5">
@@ -18,7 +18,8 @@
         <div class="mx-auto pt-5 w-100">
           <input
             type="text"
-            class="form-control fs-2 fw-bold text-end text-white"
+            id="inputScreen"
+            class="form-control fs-2 fw-bold text-end text-white inputScreen"
             value="0"
             style="background-color: rgba(255, 255, 255, 0); border: none"
           />
@@ -27,69 +28,109 @@
       <div class="container calc-btn-layout align-items-center">
         <div class="row row-cols-4 px-1 py-5 justify-content-between">
           <div class="col pb-4">
-            <button class="btn btn-style fw-bold btn-not" value="all-clear">
+            <button
+              class="btn btn-style fw-bold btn-not button all-clear"
+              id="AC"
+            >
               AC
             </button>
           </div>
           <div class="col pb-4">
-            <button class="btn btn-style fw-bold btn-not">+/-</button>
+            <button
+              class="btn btn-style fw-bold btn-not button plus-min"
+              id="+/-"
+            >
+              +/-
+            </button>
           </div>
           <div class="col pb-4">
-            <button class="btn btn-style fw-bold btn-not">%</button>
+            <button class="btn btn-style fw-bold btn-not button" id="%">
+              %
+            </button>
           </div>
           <div class="col pb-4">
-            <button class="btn btn-style fw-bold btn-opr" value="/">
+            <button class="btn btn-style fw-bold btn-opr button" id="/">
               &divide;
             </button>
           </div>
           <div class="col pb-4">
-            <button class="btn btn-style fw-bold btn-num">7</button>
+            <button class="btn btn-style fw-bold btn-num button" id="7">
+              7
+            </button>
           </div>
           <div class="col pb-4">
-            <button class="btn btn-style fw-bold btn-num">8</button>
+            <button class="btn btn-style fw-bold btn-num button" id="8">
+              8
+            </button>
           </div>
           <div class="col pb-4">
-            <button class="btn btn-style fw-bold btn-num">9</button>
+            <button class="btn btn-style fw-bold btn-num button" id="9">
+              9
+            </button>
           </div>
           <div class="col pb-4">
-            <button class="btn btn-style fw-bold btn-opr">x</button>
+            <button class="btn btn-style fw-bold btn-opr button" id="*">
+              &times;
+            </button>
           </div>
           <div class="col pb-4">
-            <button class="btn btn-style fw-bold btn-num">4</button>
+            <button class="btn btn-style fw-bold btn-num button" id="4">
+              4
+            </button>
           </div>
           <div class="col pb-4">
-            <button class="btn btn-style fw-bold btn-num">5</button>
+            <button class="btn btn-style fw-bold btn-num button" id="5">
+              5
+            </button>
           </div>
           <div class="col pb-4">
-            <button class="btn btn-style fw-bold btn-num">6</button>
+            <button class="btn btn-style fw-bold btn-num button" id="6">
+              6
+            </button>
           </div>
           <div class="col pb-4">
-            <button class="btn btn-style fw-bold btn-opr">-</button>
+            <button class="btn btn-style fw-bold btn-opr button" id="-">
+              -
+            </button>
           </div>
           <div class="col pb-4">
-            <button class="btn btn-style fw-bold btn-num">1</button>
+            <button class="btn btn-style fw-bold btn-num button" id="1">
+              1
+            </button>
           </div>
           <div class="col pb-4">
-            <button class="btn btn-style fw-bold btn-num">2</button>
+            <button class="btn btn-style fw-bold btn-num button" id="2">
+              2
+            </button>
           </div>
 
           <div class="col pb-4">
-            <button class="btn btn-style fw-bold btn-num">3</button>
+            <button class="btn btn-style fw-bold btn-num button" id="3">
+              3
+            </button>
           </div>
           <div class="col pb-4">
-            <button class="btn btn-style fw-bold btn-opr">+</button>
+            <button class="btn btn-style fw-bold btn-opr button" id="+">
+              +
+            </button>
           </div>
           <div class="col pb-4">
-            <button class="btn btn-style fw-bold btn-num">C</button>
+            <button class="btn btn-style fw-bold btn-num button" id="C">
+              C
+            </button>
           </div>
           <div class="col pb-4">
-            <button class="btn btn-style fw-bold btn-num">0</button>
+            <button class="btn btn-style fw-bold btn-num button" id="0">
+              0
+            </button>
           </div>
           <div class="col pb-4">
-            <button class="btn btn-style fw-bold btn-num">.</button>
+            <button class="btn btn-style fw-bold btn-num" id=".">.</button>
           </div>
           <div class="col pb-4">
-            <button class="btn btn-style fw-bold btn-opr">=</button>
+            <button class="btn btn-style fw-bold btn-opr button" id="=">
+              =
+            </button>
           </div>
         </div>
       </div>
